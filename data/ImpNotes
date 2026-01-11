@@ -1,0 +1,19 @@
+for data create Json file --> create new file with extension ".json"
+1st create empty dictionary
+In that dictionary, create list with any name e.g. "data": []
+In list again add empty dictionary
+so final file could look like
+{
+    "data1":[
+        {<key:value>
+        key:value>
+        }
+    ],
+
+    "data2":[
+        {<key:value>
+        key:value>
+        }
+    ]
+
+}

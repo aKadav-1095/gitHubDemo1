@@ -1,0 +1,14 @@
+In page object design, we create a separate class for each web page in the application.
+Each class contains methods that represent actions that can be performed on that page, as well as locators for the elements on that page.
+This approach helps to keep the test code clean and maintainable by separating the test logic from the page structure.
+blank "__init__. py" file is used to mark a directory as a Python package, without it, Python will not recognize the directory as a package, and you won't be able to import modules from it.
+
+syntax for class and methods:
+class PageName:
+    def __init__(self, driver):
+        self.driver = driver
+
+    def method_name(self):
+        # code to interact with the page element
+        pass
+
